@@ -1,0 +1,43 @@
+.clock-box{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10% auto;
+    margin-bottom: 0;
+    width: 50%;
+    max-width:500px;
+    min-width:300px;
+    box-shadow: 2px 2px 5px brown,
+    2px 2px 5px black;
+    border-radius: 20px;
+}
+.clock-box h1{
+    font-size: 40px;
+    color: red;
+    text-decoration: underline solid orange;
+}
+.time,.controls{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.Hr,.Min,.Sec,.s,.milesecond{
+    font-size: 40px;
+}
+button{
+    width: 100px;
+    box-shadow: 2px 2px 5px brown,
+    2px 2px 5px black;
+    border-radius: 20px;
+    padding: 5px;
+    cursor:  pointer;
+}
+.start{
+    background-color: green;
+}
+.restart{
+    background-color: orange;
+}
+.stop{
+    background-color: red;
+}
